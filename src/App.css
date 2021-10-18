@@ -1,3 +1,10 @@
+html, body {
+  height: 100vh;
+  background: url(./components/images/nightsky.jpg);
+  background-size: cover ;
+  background-repeat: no-repeat;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +42,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: #121247;
 }
